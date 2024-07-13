@@ -2,7 +2,7 @@ KK Desktop Voice Assistant
 KK is a simple desktop voice assistant created using Python. It can perform various tasks like telling the time and date, opening websites, playing music, taking screenshots, and even telling jokes. This project demonstrates the integration of several Python libraries to create a functional voice-controlled assistant.
 
 Features
-Voice Interaction: Uses speech recognition to take commands and text-to-speech for responses.
+-Voice Interaction: Uses speech recognition to take commands and text-to-speech for responses.
 Time and Date: Tells the current time and date.
 Wikipedia Search: Searches Wikipedia and reads out a summary of the result.
 Open Websites: Opens popular websites like YouTube, Google, Facebook, Instagram, and ChatGPT.
