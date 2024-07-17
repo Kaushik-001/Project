@@ -9,10 +9,11 @@ window.title("Dice Roll")
 def roll_dice():
     a=random.randint(1,6)
     label = tk.Label(window,text=a).pack()
-
+    
+# PROVIDE THE LIST OF IMAGES
 dice = ["Games/dice-six-faces-two.png","Games/dice-six-faces-three.png"
         ,"Games/dice-six-faces-six.png","Games/dice-six-faces-one.png"
-        ,"Games/dice-six-faces-four.png","Games/dice-six-faces-five.png"] # PROVIDE THE LIST OF IMAGES
+        ,"Games/dice-six-faces-four.png","Games/dice-six-faces-five.png"] 
 
 image1 = ImageTk.PhotoImage(Image.open(random.choice(dice))) #choose randomly from dice list for dice1
 image2 = ImageTk.PhotoImage(Image.open(random.choice(dice))) #choose randomly from dice list for dice2
